@@ -4,10 +4,10 @@ my dd homework
 This is a simple terraform template for the given homework
 Purpose to show my knowledge on build AWS services with terraform
 ## content of this repository
-** README.md this file
-** main.tf main template with resources to create
-** variables.tf configuration variables
-** outputs.tf defined outputs
+* README.md this file
+* main.tf main template with resources to create
+* variables.tf configuration variables
+* outputs.tf defined outputs
 
 it was built with terraform v1.0.8, aws v3.61.0, random v3.1.0
 It was required to create 3 tasks
