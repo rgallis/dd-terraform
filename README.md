@@ -9,7 +9,8 @@ Purpose to show my knowledge on build AWS services with terraform
 * variables.tf configuration variables
 * outputs.tf defined outputs
 
-it was built with terraform v1.0.8, aws v3.61.0, random v3.1.0
+built with terraform v1.0.8, aws v3.61.0, random v3.1.0
+
 It was required to create 3 tasks
 1) creation of CloudTrail in multi region with kms key, s3 buckets and cloudwatch logs enabled.
    Creating a trail with terraform resources is not so easy as documentation is not complete, you need to integrate with AWS documentation,
