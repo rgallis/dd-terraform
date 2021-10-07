@@ -11,6 +11,9 @@ Purpose to show my knowledge on build AWS services with terraform
 
 built with terraform v1.0.8, aws v3.61.0, random v3.1.0
 
+Default region is set to eu-west-1 in variables.tf, if you want a different region, change the value
+You need to have aws configured in your home directory. Terraform will look for default profile in your .aws/credentials and go with that. If you want to use a different profile, you can set the profile inside variables and add the reference in the aws provider configuration in main.tf
+
 It was required to create 3 tasks
 1) creation of CloudTrail in multi region with kms key, s3 buckets and cloudwatch logs enabled.
    Creating a trail with terraform resources is not so easy as documentation is not complete, you need to integrate with AWS documentation,
