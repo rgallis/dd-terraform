@@ -26,3 +26,5 @@ It was required to create 3 tasks
 The log-stream prefix is composed by: "<AWS Account Id>_CloudTrail_<AWS Region Name>*"
   It requires * at the end!
   Also documentation about kms key policy is missing, so found it looking at the key created by the console after creating a new trail
+S3 bucket policy has to be created after the bucket or it will give error if you insert the Policy inside the S3 resource properties. Add depends_on the bucket as well, to wait creation of bucket before applying the policy.
+   About KMS key it's nice to have the alias created to find it easily in the console. 
